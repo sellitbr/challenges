@@ -64,3 +64,13 @@ Dado o nome do produto ou o nome do fornecedor pelo usuário da API (campos `nam
 * Nosso ORM preferido é o Drizzle;
 * O seu projeto deve ser **multi-plataforma**;
 * Você deve escrever um arquivo de documentação (`DEVELOPER.md`) explicando como executar o seu serviço **localmente** e como colocá-lo em produção (*foque na simplicidade e não se esqueça que iremos testar seu serviço por nossa própria conta, sem qualquer assistência sua*).
+
+## Método de Avaliação
+
+Vamos avaliar seu teste com base em uma série de [atributos de qualidade](https://en.wikipedia.org/wiki/List_of_system_quality_attributes). Consideramos a **corretude** essencial, desclassificando seu teste caso não esteja 100% de acordo. Os outros atributos serão considerados, mas não são eliminatórios por si só. Esses são os atributos de qualidade que esperamos que você atenda:
+
+- **Corretude:** O código deve seguir **todos** os requisitos apresentados no item [1.](#1-o-que-queremos-que-você-faça).
+- **Performance:** A capacidade de lidar eficientemente com um grande número de produtos na base de dados e responder rapidamente às consultas.
+- **Testabilidade:** O quão bem testado é o código e a facilidade de adicionar novos testes.
+- **Manutenibilidade:** Facilidade de adicionar novas funcionalidades ao código.
+- **Separação de conceitos:** Implementação clara da separação de responsabilidades no código, seguindo o princípio de [separação de conceitos](https://en.wikipedia.org/wiki/Separation_of_concerns).
