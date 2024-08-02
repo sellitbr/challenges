@@ -48,3 +48,19 @@ Você pode usar as seguintes ferramentas para gerar dados fictícios de produtos
 - [DummyJSON](https://dummyjson.com)
 
 Estas ferramentas permitem que você crie centenas de informações de produtos para testar a sua aplicação — **não** esperamos que estes produtos estejam pré-carregados em sua base de dados.
+
+### 1.2. Carregar produto pelo `id`:
+
+Retornar um produto específico baseado no seu campo `id` com todos os campos apresentados acima.
+
+### 1.3. Buscar produtos:
+
+Dado o nome do produto ou o nome do fornecedor pelo usuário da API (campos `name` e `producer_name`), procure o produto que **mais se aproxime** do termo informado."
+
+### 1.4. Requerimentos Técnicos:
+
+* Use Next.js com TypeScript para o desenvolvimento do serviço;
+* Utilize PostgreSQL como banco de dados;
+* Nosso ORM preferido é o Drizzle;
+* O seu projeto deve ser **multi-plataforma**;
+* Você deve escrever um arquivo de documentação (`DEVELOPER.md`) explicando como executar o seu serviço **localmente** e como colocá-lo em produção (*foque na simplicidade e não se esqueça que iremos testar seu serviço por nossa própria conta, sem qualquer assistência sua*).
