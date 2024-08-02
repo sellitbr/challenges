@@ -5,3 +5,27 @@ Na Sellit, somos uma plataforma completa para venda de produtos, infoprodutos e 
 Quando programamos, nós seguimos uma série de melhores práticas e padrões de projeto (que você pode ler sobre em livros como Código Limpo, Arquitetura Limpa, O Programador Pragmático, Domain-Driven Design, Microservice Patterns, etc...).
 
 Já que escrever **um bom código é inegociável** no nosso dia a dia, esperamos que as pessoas que queiram entrar no nosso time pensem da mesma maneira. Este teste foi criado para encontrar esses programadores.
+
+## 1. O que queremos que você faça
+
+Esperamos que você desenvolva um serviço que disponibilize uma API REST ou GraphQL que implemente essas funcionalidades e requisitos técnicos:
+
+### 1.1. Criar um produto:
+
+Salvar no banco de dados **todas** as seguintes informações representadas por este JSON junto com as regras subsequentes:
+
+```json
+{
+  "id": "01J49K9MD3PCHX289ZA5BCT713", // ULID 
+  "category_id": "01J49KJC72PV5AY2SBMNS2ZE5K", // ULID
+  "name": "Transforme Sua Carreira com Estratégias Comprovadas",
+  "description": "Descubra como maximizar seu potencial, construir redes influentes ​e garantir uma promoção rápida. Seu futuro começa aqui!",
+  "producer_name": "Thiago Bastos",
+  "producer_email": "me@thiago-bastos.com",
+  "cover": "https://example.com/img/cover.jpg",
+  "thumbnail": "https://example.com/img/thumbnail.jpg",
+  "price": 29.9,
+  "updated_at": "2021-08-01T00:00:00Z",
+  "created_at": "2021-08-01T00:00:00Z"
+}
+```
