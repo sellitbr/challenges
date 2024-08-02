@@ -29,3 +29,15 @@ Salvar no banco de dados **todas** as seguintes informações representadas por 
   "created_at": "2021-08-01T00:00:00Z"
 }
 ```
+
+- `id:` Identificador único do produto no formato ULID. Este campo deve ser único entre todos os produto.
+- `category_id:` Identificador único da categoria do produto no formato ULID. Este campo deve ser único entre todas as - categorias.
+- `name:` Nome do produto ou serviço, representado como uma string.
+- `description:` Descrição do produto ou serviço, explicando suas características e benefícios, representado como uma string.
+- `producer_name:` Nome do produtor ou responsável pelo produto/serviço, representado como uma string.
+- `producer_email:` Endereço de e-mail do produtor ou responsável, representado como uma string.
+- `cover:` URL da imagem de capa do produto ou serviço, representado como uma string.
+- `thumbnail:` URL da imagem em miniatura do produto ou serviço, representado como uma string.
+- `price:` Preço do produto ou serviço, representado como um número decimal.
+- `updated_at:` Data e hora da última atualização do registro, no formato ISO 8601.
+- `created_at:` Data e hora da criação do registro, no formato ISO 8601.
