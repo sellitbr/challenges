@@ -80,7 +80,6 @@ Vamos avaliar seu teste com base em uma série de [atributos de qualidade](https
 - Coloque seu código em um **repositório público no Github** e mencione o @sellitbot em uma issue.
   Essa conta no Github (@sellitbot) é utilizada exclusivamente pelos engenheiros da Sellit para baixar o seu código e revisá-lo.
 - **Após finalizar o desafio, por favor submeta as informações por meio deste formulário:**
-
-TODO: Adicionar link do formulário
+  https://tally.so/r/meLqJ0
 
 Boa sorte!
