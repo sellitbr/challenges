@@ -16,8 +16,8 @@ Salvar no banco de dados **todas** as seguintes informações representadas por 
 
 ```json
 {
-  "id": "01J49K9MD3PCHX289ZA5BCT713", // ULID 
-  "category_id": "01J49KJC72PV5AY2SBMNS2ZE5K", // ULID
+  "id": "01J49K9MD3PCHX289ZA5BCT713",
+  "category_id": "01J49KJC72PV5AY2SBMNS2ZE5K",
   "name": "Transforme Sua Carreira com Estratégias Comprovadas",
   "description": "Descubra como maximizar seu potencial, construir redes influentes ​e garantir uma promoção rápida. Seu futuro começa aqui!",
   "producer_name": "Thiago Bastos",
