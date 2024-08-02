@@ -41,3 +41,10 @@ Salvar no banco de dados **todas** as seguintes informações representadas por 
 - `price:` Preço do produto ou serviço, representado como um número decimal.
 - `updated_at:` Data e hora da última atualização do registro, no formato ISO 8601.
 - `created_at:` Data e hora da criação do registro, no formato ISO 8601.
+
+Você pode usar as seguintes ferramentas para gerar dados fictícios de produtos para testar o seu serviço:
+
+- [JSONDataAI](https://jsondataai.com)
+- [DummyJSON](https://dummyjson.com)
+
+Estas ferramentas permitem que você crie centenas de informações de produtos para testar a sua aplicação — **não** esperamos que estes produtos estejam pré-carregados em sua base de dados.
