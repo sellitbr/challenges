@@ -74,3 +74,13 @@ Vamos avaliar seu teste com base em uma série de [atributos de qualidade](https
 - **Testabilidade:** O quão bem testado é o código e a facilidade de adicionar novos testes.
 - **Manutenibilidade:** Facilidade de adicionar novas funcionalidades ao código.
 - **Separação de conceitos:** Implementação clara da separação de responsabilidades no código, seguindo o princípio de [separação de conceitos](https://en.wikipedia.org/wiki/Separation_of_concerns).
+
+## Como Entregar
+
+- Coloque seu código em um **repositório público no Github** e mencione o @sellitbot em uma issue.
+  Essa conta no Github (@sellitbot) é utilizada exclusivamente pelos engenheiros da Sellit para baixar o seu código e revisá-lo.
+- **Após finalizar o desafio, por favor submeta as informações por meio deste formulário:**
+
+TODO: Adicionar link do formulário
+
+Boa sorte!
